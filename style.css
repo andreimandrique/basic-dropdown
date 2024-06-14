@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.center {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  justify-content: end;
+}
+.dropdown-container {
+  position: relative;
+}
+.dropdown-item {
+  cursor: pointer;
+  height: 2rem;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8fafc;
+  background-color: #4338ca;
+}
+.dropdown-item:hover {
+  background-color: hsl(245, 58%, 31%);
+}
+#dropdownBottom {
+  position: absolute;
+}
